@@ -3,7 +3,7 @@
 Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и 
 возводит число A в натуральную степень B.
 3, 5 -> 243 (3⁵)
-2, 4 -> 16
+2, 4 -> 16*/
 
 int Degree(int a, int b)
 {
@@ -21,16 +21,16 @@ int num1 = Convert.ToInt32 (Console.ReadLine ());
 Console.WriteLine ("Введите второе число: ");
 int num2 = Convert.ToInt32 (Console.ReadLine ());
 
-if (num2<0)
-{
-    Console.WriteLine ("Введите положительное число: ");
-num2 = Convert.ToInt32 (Console.ReadLine ());
-}
+//if (num2<0)
+
+   // Console.WriteLine ("Введите положительное число: ");
+//num2 = Convert.ToInt32 (Console.ReadLine ());
+
 int result = Degree (num1, num2);
 Console.WriteLine ($"{num1},{num2} ->{result}  ");
 
 
-Задача 27: Напишите программу, которая принимает на вход 
+/*Задача 27: Напишите программу, которая принимает на вход 
 число и выдаёт сумму цифр в числе.
 452 -> 11
 82 -> 10
@@ -65,7 +65,7 @@ int num = NumberLen(user_num);
 SummaNumbers( user_num, num);
 
 Задача 29: Напишите программу, которая задаёт массив 
-из 8 элементов и выводит их на экран.*/
+из 8 элементов и выводит их на экран.
 
 int [] NewArray(int size)
 {
@@ -86,5 +86,5 @@ int count_elem = Convert.ToInt32 (Console.ReadLine ());
 int [] array1 = NewArray(count_elem);
 SchowArray (array1);
 
-
+*/
 
